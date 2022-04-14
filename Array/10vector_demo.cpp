@@ -1,5 +1,5 @@
 //vector demo 
-#include <iostream.h>
+#include <iostream>
 #include<vector>
 using namespace std;
 
@@ -10,7 +10,7 @@ int main(){
 	vector<int> arr = {1,2,3,4,5};
 
 	//fill constructor 
-	vector<int> arr(10,7);
+	// vector<int> arr(10,7);
 
 	//fill Constructor
 	vector<int> visited(100,0);
