@@ -25,7 +25,9 @@ Example 2:
 
 using namespace std;
 
-int lowerBound(vector<int> arr,int val){
+int main(){
+	vector<int> arr={-1,-1,2,3,5};
+	int val=4;
 	int n = arr.size();
 	int start = 0;
 	int end = n-1;
@@ -40,6 +42,6 @@ int lowerBound(vector<int> arr,int val){
 		}
 
 	}
-	if(start==0 and val<arr[start]) return -1;
-	return arr[start];
+
+	cout << arr[start];
 } 
