@@ -6,6 +6,25 @@
 
 */
 
+/*
+	Sorting with Comparator
+	
+	Given an integer vector and bool variable flag, your task is to sort the vector in accordance to the boolean value. if the bool value is true then sort it in non-decreasing order or vice versa.
+	you can use any sorting technique of your choice.
+
+	Input format : 
+		in the function an integer vector and a boolean is passed.
+
+	Output Format:
+		Return an integer vector
+
+	Sample Input
+		
+		{111,33,5,7,29},flage =1
+	Sample Output
+		{5,7,29,111}				
+*/
+
 #include <iostream>
 #include<vector>
 #include<algorithm>
