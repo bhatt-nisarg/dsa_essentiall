@@ -25,6 +25,8 @@ int main(){
 	//this method is as follows
 
 	
+	//could have checked our len doesn't exceed the sentence array, additional check
+	
 	while(temp != '\n'){
 		sentence[len++] = temp;
 		temp = cin.get();
