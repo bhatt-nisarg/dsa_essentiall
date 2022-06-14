@@ -17,6 +17,7 @@ int** Create2DDynamicArray(int row,int cols){
 		arr[i] = new int[cols];
 	}
 	//one variable for each element of the box
+	//init the array with increasing list of nos
 	int values =0;
 	//inserting element to an array
 	for(int i =0;i<row;i++){
@@ -31,6 +32,7 @@ int** Create2DDynamicArray(int row,int cols){
 
 int main(){
 	
+	//2D dynamic array
 	int row,cols;
 	cin>>row>>cols;
 
