@@ -1,0 +1,24 @@
+//Backtracking Introduction
+
+-it is a algorithmic technique
+-recursively trying to build a solution
+-seaching the entire search space to solve a computation problem
+
+
+problem Types
+1 - Decision Problem  
+	check feasible solution
+	for example whether a solution is possible or not
+
+2 - Optimisation Problem
+    find best solution
+    we are given set of nodes and we have to findout a path which covers all the nods but in minimum cost(Example Traveling salesmen problem)
+3 - Enumeration Problem 
+    -find all solutions
+    we are given string abc and we have to find out all the subset of the string or we have to find out all permutation of the string
+
+Some classical problem in Backtracking
+- Rate in maze
+- N queen problem 
+- sudoku solver
+- knight's tour problem
