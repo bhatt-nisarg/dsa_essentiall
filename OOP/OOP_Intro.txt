@@ -1,0 +1,34 @@
+//Object Oriented Programming
+//it all about style of writing code
+
+Objects? 
+Objcts = Entities in real world
+Objects have two things
+state(Date)
+Behaviour(Function)
+For exampple we have Pen class
+class pen {
+	string color //data
+	int thickness//data
+	setcolor() // Funnction
+	setThickness //Function
+}
+in pen we have object like its color its thickness and
+functions etc
+
+next  example
+car object 
+class car {
+	name 
+	color
+	model
+	manufactured date
+	checkout()
+}
+
+
+object make work of programmer is easy maintainable
+Encaptulation(data hiding)
+Protect against unauthorized access
+inheritence
+polymorphism
