@@ -1,6 +1,20 @@
 //we can use the kadan's algorithm for finding maximum subarray sum in the array 
 //it is take linear time to find the largest sum in the array 
 //time complexity O(n) and space complexity O(1)
+// Algorithm:
+// Initialize : 
+// 	max_so_far = INT_MIN;
+// 	max_ending_here = 0;
+
+// Loop for each element of the array
+// a) max_ending_here = max_ending_here+1
+// b) if(max_so_far < max_ending_here)
+// 		max_so_far = max_ending_here
+// c) if(max_ending_here<0)
+// 		max_ending_here = 0
+// return max_so_far					
+
+
 #include<iostream>
 using namespace std;
 

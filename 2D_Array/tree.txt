@@ -1,0 +1,9 @@
+binary tree is special = each node  can have atmost 2 children
+starting of tree is known as root node
+two node are from same node its called siblings 
+node who dont have any chile its cold leaf node
+
+
+Ancestors: 
+decendents 
+
